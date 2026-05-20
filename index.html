@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Digital Unknown</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- simplycountdown -->
+    <link rel="stylesheet" href="countdown/default.css">
+    <script src="countdown/simplyCountdown.umd.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="hero"
+        class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+        <main>
+            <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+            <h1>Krisna & Dwi</h1>
+            <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+            <div class="my-countdown simply-countdown"></div>
+            <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()">Lihat Undangan</a>
+        </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md sticky-top mynavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Krisna</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Krisna</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#info">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story">Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rsvp">RSVP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gifts">Gifts</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2>Acara Pernikahan</h2>
+                    <h3>Diselenggarakan pada 18 April 2026 di Denpasar, Bali.</h3>
+                    <p>oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i,
+                        untuk hadir pada acara pernikahan kami.</p>
+                </div>
+            </div>
+
+            <div class="row couple">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-8 text-end">
+                            <h3>Kadek Permana Krisna Yuda</h3>
+                            <p>Putra dari Bpk. Komang Brustayudha <br> dan <br> Ibu. Luh Komang Tryawati</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="image/profile1.jpeg" alt="" class="img-responsive rounded-circle">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="image/profile-cw.jpeg" alt="" class="img-responsive rounded-circle">
+                        </div>
+                        <div class="col-8">
+                            <h3>Ni Made Dwi Pradnyani</h3>
+                            <p>Putra dari Bpk. <br> dan <br> Ibu. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="info" class="info">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <h2>Informasi Acara</h2>
+                    <p class="alamat">Alamat: Segara Village Hotel <br> Jl.Segara Ayu, Sanur, Denpasar Selatan, Bali</p>
+                    <a href="https://maps.app.goo.gl/LS2Tpoc4PMLk7yRo9" target="_blank"
+                        class="btn btn-light btn-sm my-4">Klik untuk membuka peta</a>
+                    <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan
+                        namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, boleh jadi anda salah jadwal, atau
+                        salah tempat.</p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 col-10 mb-5">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Akad Nikah
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>08.00 - 10.00</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar3 d-block"></i>
+                                    <span>Kamis, 24 April 2026</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan seluruh prosesi.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10">
+                    <div class="card text-center text-bg-light">
+                        <div class="card-header">
+                            Resepsi
+                        </div>
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <div class="col-md-6">
+                                    <i class="bi bi-clock d-block"></i>
+                                    <span>11.00 - selesai</span>
+                                </div>
+                                <div class="col-md-6">
+                                    <i class="bi bi-calendar3 d-block"></i>
+                                    <span>Kamis, 24 April 2026</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan seluruh prosesi.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="story">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Bagaimana Cinta Kami Bersemi</span>
+                    <h2>Cerita Kami</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image" style="background-image: url();"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Pertama Bertemu</h3>
+                                    <span>21 Juni 2024</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit
+                                        exercitationem
+                                        corporis dolor quas ipsam.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image" style="background-image: url();"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Mulai Serius</h3>
+                                    <span>20 Agustus 2024</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit
+                                        exercitationem
+                                        corporis dolor quas ipsam.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image" style="background-image: url();"></div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h3>Officialy Pacaran</h3>
+                                    <span>27 September 2024</span>
+                                </div>
+                                <div class="timeline-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit
+                                        exercitationem
+                                        corporis dolor quas ipsam.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-10 text-center">
+                    <span>Memori Kisah Kami</span>
+                    <h2>Gallery Foto</h2>
+                </div>
+            </div>
+
+            <div class="row row-cols-lg-4 row-cols-3 justify-content-center">
+                <div class="col mt-3">
+                    <a href="gallery/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                        <img src="gallery/thumbnail/1.jpg" alt="Krisna & Dwi 1" class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/204/1280/768" data-toggle="lightbox"
+                        data-gallery="example-gallery">
+                        <img src="https://picsum.photos/id/204/408/531" alt="Krisna & Dwi 2"
+                            class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/210/1280/768" data-toggle="lightbox"
+                        data-gallery="example-gallery">
+                        <img src="https://picsum.photos/id/210/408/531" alt="Krisna & Dwi 3"
+                            class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/206/1280/768" data-toggle="lightbox"
+                        data-gallery="example-gallery">
+                        <img src="https://picsum.photos/id/206/408/531" alt="Krisna & Dwi 4"
+                            class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/180/1280/768" data-toggle="lightbox"
+                        data-gallery="example-gallery">
+                        <img src="https://picsum.photos/id/180/408/531" alt="Krisna & Dwi 5"
+                            class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+                <div class="col mt-3">
+                    <a href="https://picsum.photos/id/100/1280/768" data-toggle="lightbox"
+                        data-gallery="example-gallery">
+                        <img src="https://picsum.photos/id/100/408/531" alt="Krisna & Dwi 6"
+                            class="img-fluid w-100 rounded">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md8 col-10 text-center">
+                    <h2>Konfirmasi Kehadiran</h2>
+                    <p>Isi form di bawah ini untuk melakukan konfirmasi kehadiran</p>
+                </div>
+            </div>
+
+            <form class="row row-cols-md-auto g-3 align-items-center justify-content-center" id="my-form" method="POST"
+                action="https://script.google.com/macros/s/AKfycbxQgCCcGevLuTGMzC_86Ghn1eW44Wa8Ian5D9SZv-wNRv8satqvd9nPaOMR1K6Z5GuzbQ/exec">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="nama" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="nama" name="nama" autocomplete="off">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah</label>
+                        <input type="number" class="form-control" id="jumlah" name="jumlah" min="1" value="1" max="5"
+                            length="1">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="status" class="form-label">Konfirmasi</label>
+                        <select name="status" id="status" class="form-select">
+                            <option selected>Pilih salah satu</option>
+                            <option value="hadir">Hadir</option>
+                            <option value="tidak hadir">Tidak Hadir</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12" style="margin-top: 35px;">
+                    <button class="btn btn-primary">Kirim</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md8 col-10 text-center">
+                    <span>Ungkapan Suka Cita</span>
+                    <h2>Pemberian Hadiah</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis, error eius ipsam saepe
+                        vel!</p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <div class="fw-bold">BNI</div>
+                            928932121 - Krisna
+                            <div class="kartu-atm">
+                                <span class="kartu">BNI</span>
+                                <span class="no-rek">928932121</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="fw-bold">BCA</div>
+                            928932121 - Dwi
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <small class="block">&copy; 2026 Krisna Wedding. All Rights Reserved</small>
+                    <small class="block">Design by <a href="https://www.instagram.com/krisnayd_/">@krisnayd_</a></small>
+
+                    <ul class="mt-3">
+                        <li>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="bi bi-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="audio-container">
+        <audio id="bg-music" autoplay loop>
+            <source src="audio/Akeboshi - Wind (Lyrics).mp3" type="audio/mp3">
+        </audio>
+
+        <div class="audio-icon-wrapper" style="display: none;">
+            <i class="bi bi-disc"></i>
+        </div>
+    </div>
+
+    <!-- buat hitung hari, jam, menit, detik mundur -->
+    <script>
+        simplyCountdown('.my-countdown', {
+            year: 2026, // Target year (required)
+            month: 4, // Target month [1-12] (required)
+            day: 24, // Target day [1-31] (required)
+            hours: 0, // Target hour [0-23], default: 0
+            minutes: 0, // Target minute [0-59], default: 0
+            seconds: 0, // Target second [0-59], default: 0
+            words: { // Custom labels, with lambda for plurals
+                days: { root: 'Hari', lambda: (root, n) => n > 1 ? root : root },
+                hours: { root: 'Jam', lambda: (root, n) => n > 1 ? root : root },
+                minutes: { root: 'Menit', lambda: (root, n) => n > 1 ? root : root },
+                seconds: { root: 'Detik', lambda: (root, n) => n > 1 ? root : root }
+            },
+        });
+    </script>
+
+    <!-- buat sticky offcanvas no slide sumbu x -->
+    <script>
+        // const hamburger = document.querySelector('.navbar-toggler');
+        const stickyTop = document.querySelector('.sticky-top');
+        const offcanvas = document.querySelector('.offcanvas');
+
+        offcanvas.addEventListener('show.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'visible';
+        });
+
+
+        offcanvas.addEventListener('hidden.bs.offcanvas', function () {
+            stickyTop.style.overflow = 'hidden';
+        });
+    </script>
+
+
+    <!-- buat disable scrolling waktu pertama buka website -->
+    <!-- cara hapus disablenya di local storage application inspect element -->
+    <script>
+        const rootElement = document.querySelector(":root");
+        const audioIconWrapper = document.querySelector('.audio-icon-wrapper');
+        const bgMusic = document.querySelector('#bg-music');
+        const audioIcon = document.querySelector('.audio-icon-wrapper i');
+        let isPlaying = false;
+
+        function disableScroll() {
+            scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+            window.onscroll = function () {
+                window.scrollTo(scrollTop, scrollLeft);
+            }
+
+            rootElement.style.scrollBehavior = "auto";
+        }
+
+        function enableScroll() {
+            window.onscroll = function () { }
+            rootElement.style.scrollBehavior = "smooth";
+            // localStorage.setItem('opened', 'true');
+            playAudio();
+        }
+
+        // if (!localStorage.getItem('opened')) {
+        // }
+
+        function playAudio() {
+            bgMusic.volume = 0.1;
+            bgMusic.play();
+            audioIconWrapper.style.display = 'flex';
+            isPlaying = true;
+        }
+
+        // logika untuk memutar music dan pause music
+        // dan mengganti icon play dan pause
+        audioIconWrapper.onclick = function () {
+            if (isPlaying) {
+                bgMusic.pause();
+                audioIcon.classList.remove('bi-disc');
+                audioIcon.classList.add('bi-pause-circle');
+            } else {
+                bgMusic.play();
+                audioIcon.classList.remove('bi-pause-circle');
+                audioIcon.classList.add('bi-disc');
+            }
+
+            isPlaying = !isPlaying;
+        }
+
+        disableScroll();
+    </script>
+
+    <!-- untuk menampilkan allert konfirmasi RSVP & tetap berada di halaman -->
+    <script>
+        window.addEventListener("load", function () {
+            const form = document.getElementById('my-form');
+            form.addEventListener("submit", function (e) {
+                e.preventDefault();
+                const data = new FormData(form);
+                const action = e.target.action;
+                fetch(action, {
+                    method: 'POST',
+                    body: data,
+                })
+                    .then(() => {
+                        alert("Konfirmasi Kehadiran Terkirim!");
+                    })
+            });
+        });
+
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- lightbox boostrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+
+</body>
+
+</html>
